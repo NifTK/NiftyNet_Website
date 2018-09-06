@@ -1,11 +1,11 @@
 # The NiftyNet Public Website
 
-This (temporary) repository is for the public-facing website of the
-NiftyNet Collaboration, as hosted on the CMICLab GitLab instance.
+This repository is for the public-facing website of the
+NiftyNet Collaboration hosted at http://niftynet.io.
 
 ## Requesting content and features
 
-Please raise an [issues](https://cmiclab.cs.ucl.ac.uk/twhyntie/niftynet-website/issues)
+Please raise an [issues](https://github.com/NifTK/NiftyNet_Website/issues)
 and we'll do our best to implement your suggestions!
 
 ## Updating the website with git-ftp
