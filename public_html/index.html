@@ -1,0 +1,398 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>niftynet</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <!-- Start Top Bar -->
+    <div data-sticky-container>
+    <div class="top-bar" data-sticky data-options="marginTop:0;">
+      <div class="top-bar-left show-for-large">
+        <ul class="menu">
+          <img class='menulogo' src='./img/niftynet-logo_small.png' alt='' />
+          <li class="menu-text title">NiftyNet</li>
+        </ul>
+      </div>
+      <div class="top-bar-right show-for-large">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#licensing">Licensing</a></li>
+          <li><a href="#consortium">Consortium</a></li>
+          <li><a href="https://pypi.org/project/NiftyNet/">PyPI</a></li>
+          <li><a href="http://niftynet.readthedocs.io/en/dev/">Documentation</a></li>
+          <li><a href="https://github.com/NifTK/NiftyNet">GitHub</a></li>
+        </ul>
+      </div>
+      <div class="top-bar-left hide-for-large">
+          
+        <ul class="dropdown menu" data-dropdown-menu>
+          <!-- <li><a href="#" class="title"><img class='menulogo' src='./img/niftynet-logo_small.png' alt='' />&nbsp; NiftyNet</a> -->
+          <li><a href="#" class="title"><i class="fa fa-bars" aria-hidden="true"></i>&nbsp; NiftyNet</a>
+          <ul class="menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#publications">Publications</a></li>
+          <li><a href="#licensing">Licensing</a></li>
+          <li><a href="#consortium">Consortium</a></li>
+          <li><a href="https://arxiv.org/abs/1709.03485">arXiv</a></li>
+          <li><a href="https://pypi.org/project/NiftyNet/">PyPI</a></li>
+          <li><a href="https://github.com/NifTK/NiftyNet">GitHub</a></li>
+          </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+    <!-- End Top Bar -->
+
+    <!-- HERO SECTION -->
+
+    <div class="grid-container hero">
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell text-center">
+          <img class='mainlogo' src='./img/niftynet-logo.png' alt='' />
+          <h1 class="title">NiftyNet</h1>
+          <p class="lead">An open source convolutional neural networks platform for medical image analysis and image-guided therapy</p>
+          <a href="https://pypi.org/project/NiftyNet/" class="button large">Get Started</a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- ABOUT SECTION -->
+
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="medium-12 cell text-center">
+          <h2 id='about' class='anchor'>What is NiftyNet?</h2>
+        </div>
+      </div>
+      
+      <div class="grid-x grid-padding-x">
+        <div class="medium-8 medium-offset-2 cell">
+          <p class='text-justify'>
+            NiftyNet is a <a href="https://www.tensorflow.org/" target="_blank">TensorFlow</a>-based
+            open-source convolutional neural networks (CNNs) platform for research in medical image
+            analysis and image-guided therapy. NiftyNet’s modular structure is designed for sharing
+            networks and pre-trained models. Using this modular structure you can:</p>
+          <ul>
+            <li>Get started with established pre-trained networks using built-in tools;</li>
+            <li>Adapt existing networks to your imaging data;</li>
+            <li>Quickly build new solutions to your own image analysis problems.</li>
+          </ul>
+          <p>The code is available via <a href='https://github.com/NifTK/NiftyNet' target='_blank'>GitHub</a>,
+          or you can quickly get started with the <a href="http://pypi.org" target="_blank">PyPI</a> module
+          available <a href="https://pypi.org/project/NiftyNet/">here</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- FEATURES SECTION -->
+
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="medium-12 cell text-center">
+          <h2 id='features' class='anchor'>Features</h2>
+        </div>
+        <div class="medium-8 medium-offset-2 cell">
+          <p class='text-justify'>
+          NiftyNet currently supports medical image segmentation and generative adversarial networks.
+          <em>NiftyNet is not intended for clinical use</em>. Other features of NiftyNet include:
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="grid-container">
+      <div class="grid-x grid-margin-x">
+        <div class="medium-4 cell callout text-center">
+          <h3><i class="feature-icon fa fa-wrench" aria-hidden="true"></i></h3>
+          <p>Easy-to-customise interfaces of network components</p>
+        </div>
+        <div class="medium-4 cell callout text-center">
+          <h3><i class="feature-icon fa fa-share-square-o" aria-hidden="true"></i></h3>
+          <p>Sharing networks and pre-trained models</p>
+        </div>
+        <div class="medium-4 cell callout text-center">
+          <h3><i class="feature-icon fa fa-cubes" aria-hidden="true"></i></h3>
+          <p>Support for 2-D, 2.5-D, 3-D, 4-D inputs</p>
+        </div>
+      </div>
+      <div class="grid-x grid-margin-x">
+        <div class="medium-4 cell callout text-center">
+          <h3><i class="feature-icon fa fa-tachometer" aria-hidden="true"></i></h3>
+          <p>Efficient discriminative training with multiple-GPU support</p>
+        </div>
+        <div class="medium-4 cell callout text-center">
+          <h3><i class="feature-icon fa fa-share-alt" aria-hidden="true"></i></h3>
+          <p>Implementation of recent networks (HighRes3DNet, 3D U-net, V-net, DeepMedic)</p>
+        </div>
+        <div class="medium-4 cell callout text-center">
+          <h3><i class="feature-icon fa fa-area-chart" aria-hidden="true"></i></h3>
+          <p>Comprehensive evaluation metrics for medical image segmentation</p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="medium-12 cell text-center">
+          <h2 id='publications' class='anchor'>Publications</h2>
+        </div>
+        <div class="medium-8 medium-offset-2 cell">
+          <p class="text-justify">
+            If you use NiftyNet in your work, please cite <a href="http://arxiv.org/abs/1709.03485" target="_blank">Gibson, Li et al. 2017</a>.
+            The NiftyNet platform originated in software developed for <a href="http://doi.org/10.1007/978-3-319-59050-9_28" target="_blank">Li et. al. 2017</a>. Please click below for the full citations and <code>BibTeX</code> entries.
+          </p>
+        </div>
+        <div class="medium-6 medium-offset-3 cell">
+          <ul class="accordion" data-accordion data-allow-all-closed="true">
+            <li class="accordion-item" data-accordion-item>
+              <a href="#" class="accordion-title">Gibson, Li et. al. 2017</a>
+              <div class="accordion-content" data-tab-content >
+<p>E. Gibson, W. Li, C. Sudre, L. Fidon, D. Shakir, G. Wang, Z. Eaton-Rosen, R. Gray, T. Doel, Y. Hu, T. Whyntie, P. Nachev, D. C. Barratt, S. Ourselin, M. J. Cardoso and T. Vercauteren (2017) <a href='https://www.sciencedirect.com/science/article/pii/S0169260717311823' target='_blank'><em>NiftyNet: a deep-learning platform for medical imaging, CMPB (journal)</em></a> or <a href='http://arxiv.org/abs/1709.03485' target='_blank'>arXiv (preprint)</a></p>
+              <code>
+@InProceedings{niftynet17, <br />
+author = {Eli Gibson and Wenqi Li and Carole Sudre and Lucas Fidon and Dzoshkun Shakir and Guotai Wang and Zach Eaton-Rosen and Robert Gray and Tom Doel and Yipeng Hu and Tom Whyntie and Parashkev Nachev and Dean C. Barratt and Sebastien Ourselin and M. Jorge Cardoso and Tom Vercauteren}, <br />
+title = {NiftyNet: a deep-learning platform for medical imaging}, <br />
+year = {2018}, <br />
+volume = {158},<br />
+pages = {113-122},<br />
+journal = {CMPB}, <br />
+} <br />
+              </code>
+              </div>
+            </li>
+            <li class="accordion-item" data-accordion-item>
+              <a href="#" class="accordion-title">Li et. al. 2017</a>
+              <div class="accordion-content" data-tab-content >
+<p>Li W., Wang G., Fidon L., Ourselin S., Cardoso M.J., Vercauteren T. (2017) <a href='http://doi.org/10.1007/978-3-319-59050-9_28' target='_blank'><em>On the Compactness, Efficiency, and Representation of 3D Convolutional Networks: Brain Parcellation as a Pretext Task.</em></a> In: Niethammer M. et al. (eds) Information Processing in Medical Imaging. IPMI 2017. Lecture Notes in Computer Science, vol 10265. Springer, Cham. DOI: <a
+href='http://doi.org/10.1007/978-3-319-59050-9_28' target='_blank'>10.1007/978-3-319-59050-9_28</a></p>
+              <code>
+@InProceedings{niftynet17,<br>
+  author = {Li, Wenqi and Wang, Guotai and Fidon, Lucas and Ourselin, Sebastien and Cardoso, M. Jorge and Vercauteren, Tom},<br>
+  title = {On the Compactness, Efficiency, and Representation of 3D Convolutional Networks: Brain Parcellation as a Pretext Task},<br>
+  booktitle = {International Conference on Information Processing in Medical Imaging (IPMI)},<br>
+  year = {2017}<br>
+}
+              </code>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- PUBLICATIONS->NETWORKS -->
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="medium-12 cell text-center">
+          <h3 class='anchor'>Networks</h3>
+        </div>
+        <div class="medium-8 medium-offset-2 cell">
+          <p class='text-justify'>
+            A number of models from the literature have been (re)implemented in the NiftyNet framework.
+            These are listed below.
+            All networks can be applied in 2D, 2.5D and 3D configurations and are reimplemented from their original presentation with their default parameters.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- PUBLICATIONS->NETWORKS->PAPERS -->
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="medium-6 medium-offset-3 cell">
+          <ul class="accordion" data-accordion data-allow-all-closed="true">
+            <li class="accordion-item" data-accordion-item>
+              <a href="#" class="accordion-title">DeepMedic (Kamnitsas et. al. 2017)</a>
+              <div class="accordion-content" data-tab-content>
+<p>Kamnitsas, K., Ledig, C., Newcombe, V. F., Simpson, J. P., Kane, A. D., Menon, D. K., Rueckert, D., Glocker, B. (2017) <a href='http://doi.org/10.1016/j.media.2016.10.004' target='_blank'><em>Efficient multi-scale 3D CNN with fully connected CRF for accurate brain lesion segmentation.</em></a> DOI: <a href='http://doi.org/10.1016/j.media.2016.10.004' target='_blank'>10.1016/j.media.2016.10.004</a></p>
+              </div>
+            </li>
+            <li class="accordion-item" data-accordion-item>
+              <a href="#" class="accordion-title">HighRes3dNet (Li et. al. 2017)</a>
+              <div class="accordion-content" data-tab-content >
+<p>Li W., Wang G., Fidon L., Ourselin S., Cardoso M.J., Vercauteren T. (2017) <a href='http://doi.org/10.1007/978-3-319-59050-9_28' target='_blank'><em>On the Compactness, Efficiency, and Representation of 3D Convolutional Networks: Brain Parcellation as a Pretext Task.</em></a> In: Niethammer M. et al. (eds) Information Processing in Medical Imaging. IPMI 2017. Lecture Notes in Computer Science, vol 10265. Springer, Cham. DOI: <a
+href='http://doi.org/10.1007/978-3-319-59050-9_28' target='_blank'>10.1007/978-3-319-59050-9_28</a></p>
+              </div>
+            </li>
+            <li class="accordion-item" data-accordion-item>
+              <a href="#" class="accordion-title">ScaleNet (Fidon et. al. 2017)</a>
+              <div class="accordion-content" data-tab-content>
+<p>Fidon, L., Li, W., Garcia-Peraza-Herrera, L.C., Ekanayake, J., Kitchen, N., Ourselin, S., Vercauteren, T. (2017) <a href='https://arxiv.org/abs/1706.08124' target='_blank'><em>Scalable multimodal convolutional networks for brain tumour segmentation.</em></a> MICCAI 2017</p>
+              </div>
+            </li>
+            <li class="accordion-item" data-accordion-item>
+              <a href="#" class="accordion-title">UNet (Çiçek et. al. 2016)</a>
+              <div class="accordion-content" data-tab-content>
+<p>Çiçek, Ö., Abdulkadir, A., Lienkamp, S. S., Brox, T., and Ronneberger, O. (2016) <a href='https://lmb.informatik.uni-freiburg.de/Publications/2016/CABR16/cicek16miccai.pdf' target='_blank'><em>3D U-net: Learning dense volumetric segmentation from sparse annotation.</em></a> MICCAI 2016</p>
+              </div>
+            </li>
+            <li class="accordion-item" data-accordion-item>
+              <a href="#" class="accordion-title">VNet (Milletari et. al. 2016)</a>
+              <div class="accordion-content" data-tab-content>
+<p>Milletari, F., Navab, N., & Ahmadi, S. A. (2016) <a href='http://campar.in.tum.de/pub/milletari2016Vnet/milletari2016Vnet.pdf' target='_blank'><em>V-net: Fully convolutional neural networks for volumetric medical image segmentation.</em></a> 3DV 2016</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="medium-8 medium-offset-2 cell">
+          <p class='text-center'>
+            Further details can be found in the GitHub networks section <a href='https://github.com/NifTK/NiftyNet/tree/dev/niftynet/network' target='_blank'>here</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- PUBLICATIONS->LOSS FUNCTIONS -->
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="medium-12 cell text-center">
+          <h3 class='anchor'>Loss Functions</h3>
+        </div>
+        <div class="medium-8 medium-offset-2 cell">
+          <p class='text-justify'>
+          Publications relating to the various loss functions used in the NiftyNet
+          framework can be found listed below.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- PUBLICATIONS->NETWORKS->PAPERS -->
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="medium-6 medium-offset-3 cell">
+          <ul class="accordion" data-accordion data-allow-all-closed="true">
+            <li class="accordion-item" data-accordion-item>
+              <a href="#" class="accordion-title">Dice Loss (Milletari et. al. 2016)</a>
+              <div class="accordion-content" data-tab-content>
+<p>Milletari, F., Navab, N., & Ahmadi, S. A. (2016) <a href='http://campar.in.tum.de/pub/milletari2016Vnet/milletari2016Vnet.pdf' target='_blank'><em>V-net: Fully convolutional neural networks for volumetric medical image segmentation.</em></a> 3DV 2016</p>
+              </div>
+            </li>
+            <li class="accordion-item" data-accordion-item>
+              <a href="#" class="accordion-title">Generalised Dice Loss (Sudre et. al 2017)</a>
+              <div class="accordion-content" data-tab-content>
+<p>Sudre, C. et. al. (2017) <a href='https://arxiv.org/pdf/1707.03237.pdf' target='_blank'><em>Generalised Dice overlap as a deep learning loss function for highly unbalanced segmentations.</em></a> DLMIA 2017</p>
+              </div>
+            </li>
+            <li class="accordion-item" data-accordion-item>
+              <a href="#" class="accordion-title">Sensitivity-Specifity Loss (Brosch et. al. MICCAI 2015)</a>
+              <div class="accordion-content" data-tab-content >
+<p>Brosch et. al. (2015) <a href='https://doi.org/10.1007/978-3-319-24574-4_1' target="_blank"><em>Deep Convolutional Encoder Networks for Multiple Sclerosis Lesion Segmentation.</em></a> MICCAI 2015</p>
+              </div>
+            </li>
+            <li class="accordion-item" data-accordion-item>
+              <a href="#" class="accordion-title">Wasserstein Dice Loss (Fidon et. al. 2017)</a>
+              <div class="accordion-content" data-tab-content>
+<p>Fidon, L. et. al. (2017) <a href='https://arxiv.org/abs/1707.00478' target='_blank'><em>Generalised Wasserstein Dice Score for Imbalanced Multi-class Segmentation using Holistic Convolutional Networks.</em></a> MICCAI 2017 (BrainLes)</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- LICENSING -->
+
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="medium-12 cell text-center">
+          <h2 id='licensing' class='anchor'>Licensing</h2>
+        </div>
+        <div class="medium-8 medium-offset-2 cell">
+          <p class='text-justify'>
+          NiftyNet is released under the Apache License, Version 2.0.
+          Please see the LICENSE file in the <a href="https://github.com/NifTK/NiftyNet" target="_blank">NiftyNet source code repository</a> for details.
+          </p>
+        </div>
+      </div>
+    </div>
+
+      
+    <hr>
+
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="medium-12 cell text-center">
+          <h2 id='consortium' class='anchor'>The NiftyNet Consortium</h2>
+        </div>
+        <div class="medium-8 medium-offset-2 cell">
+          <p class='text-justify'>
+          NiftyNet is a consortium of research groups, including the
+          Wellcome Centre for Medical Engineering
+          (<a href='https://medicalengineering.org.uk' target='_blank'>CME</a>),
+          the School of Biomedical Engineering and Imaging Sciences at King's College London (<a href='https://www.kcl.ac.uk/lsm/research/divisions/imaging/index.aspx' target='_blank'>BMEIS</a>) and the High-dimensional Imaging Group (HIG) at the UCL Institute of Neurology.
+          </p>
+        </div>
+      </div>
+      <div class="grid-x grid-padding-x">
+        <div class="medium-2 medium-offset-4 cell text-center">
+          <a href="https://medicalengineering.org.uk" target="_blank"><img class="thumbnail float-center" src="img/CME-logo.png" /></a>
+        </div>
+        <div class="medium-2 cell">
+          <a href="https://www.kcl.ac.uk/lsm/research/divisions/imaging/index.aspx" target="_blank"><img class="thumbnail float-center" src="img/kcl-logo.png" /></a>
+        </div>
+      </div>
+      <div class="grid-x grid-padding-x">
+        <div class="medium-2 medium-offset-4 cell text-center">
+          <a href="http://www.wellcome.ac.uk" target="_blank"><img class="thumbnail float-center" src="img/wellcome-logo-new.png" /></a>
+        </div>
+        <div class="medium-2 cell">
+          <a href="http://www.epsrc.ac.uk" target="_blank"><img class="thumbnail float-center" src="img/epsrc-logo.png" /></a>
+        </div>
+      </div>
+    </div>
+    <div class="grid-container">
+      <div class="grid-x grid-padding-x">
+        <div class="medium-12 cell text-center">
+          <h3 id='consortium' class='anchor'>Acknowledgements</h3>
+        </div>
+        <div class="medium-8 medium-offset-2 cell">
+          <p class='text-justify'>
+          This project is grateful for the support from
+          the <a href='http://www.wellcome.ac.uk' target='_blank'>Wellcome Trust</a>,
+          the Engineering and Physical Sciences Research Council (<a href='http://www.epsrc.ac.uk' target='_blank'>EPSRC</a>),
+          the National Institute for Health Research (<a href="https://www.nihr.ac.uk/" target="_blank">NIHR</a>),
+          the Department of Health (<a href="https://www.gov.uk/government/organisations/department-of-health" target="_blank">DoH</a>),
+          Cancer Research UK (<a href="https://www.cancerresearchuk.org" target="_blank">CRUK</a>),
+          King's College London (<a href='http://www.kcl.ac.uk' target='_blank'>KCL</a>),
+          the Science and Engineering South Consortium (<a href='https://www.ses.ac.uk/' target='_blank'>SES</a>),
+          the <a href='http://www.stfc.ac.uk/about-us/where-we-work/rutherford-appleton-laboratory/' target='_blank'>STFC Rutherford-Appleton Laboratory</a>,
+          and <a href='http://www.nvidia.co.uk' target='_blank'>NVIDIA</a>.
+          </p>
+        </div>
+      </div>
+
+    <hr>
+
+    <div class="grid-container">
+      <div class="grid-x grid-margin-x">
+        <div class="medium-12 cell text-center">
+          <p>&copy; The NiftyNet Consortium 2018</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

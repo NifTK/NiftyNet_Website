@@ -1,0 +1,91 @@
+
+.anchor { padding-top: 70px; }
+
+body {
+  background-repeat: repeat-x;
+}
+
+.title {
+  font-weight: 200 !important;
+}
+
+.hero {
+  background-image: url("../img/neurons.jpg");
+  -moz-box-shadow: 0 1px #999999;
+  -webkit-box-shadow: 0 1px #999999;
+  box-shadow: 0 1px #999999;
+}
+
+.top-bar {
+  -moz-box-shadow: 0 1px #999999;
+  -webkit-box-shadow: 0 1px #999999;
+  box-shadow: 0 1px #999999;
+}
+
+.top-bar, .top-bar ul {
+  background-color: #DDDDDD;
+}
+
+a {
+  color: #FF0000;
+}
+
+a:hover {
+  color: #CC0000;
+}
+
+a:visited {
+  color: #AA0000;
+}
+
+a.button:visited {
+  color: #DDDDDD;
+}
+
+.button {
+  background-color: #FF0000;
+  margin: 0 0 6rem 0;
+}
+
+.button:hover, .button:focus {
+  background-color: #CC0000;
+}
+
+.mainlogo {
+  margin-top: 175px;
+}
+
+.menulogo {
+  height: 100%;
+  width: auto;
+}
+
+h3.anchor {
+  padding-top: 20px;
+}
+
+code {
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.accordion-title {
+  color: #FF0000;
+}
+
+.accordion-title:hover, .accordion-title:focus, .accordion-title:active {
+  color: #CC0000;
+}
+
+.feature-icon {
+  font-size: 64px;
+  color: #333333;
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a {
+  color: #FF0000;
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+  border-color: #FF0000 transparent transparent;
+}
